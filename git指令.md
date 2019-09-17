@@ -28,3 +28,5 @@
 **git stash log** 查看stash列表
 **git stash clear** 清空所有stash列表
 **git stash drop** 删除某个stash记录
+
+**git tag \[tagName\] \[commit码\]** 打标签，不写commit码默认打到最新commit
