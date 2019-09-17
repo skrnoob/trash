@@ -1,3 +1,3 @@
 Hello, i am Trash.
 realy?
-actually i am in master
+actually i merged master and feature

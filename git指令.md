@@ -1,4 +1,3 @@
-# 这是一级标题
 
 # git常用指令
 
@@ -18,3 +17,7 @@
 **git reset Head** 把暂存区的数据替换成当前分支的最新版本的数据。
 **git reset Head^** 把暂存区的数据替换成当前分支的上个版本的数据。
 **git reset commit码** 把暂存区的数据替换成当前分支上commit码相应版本的数据。
+
+**git merge \[branchName\]** 将某分支合并到当前分支。有冲突要先解决冲突，commit之后再merge。
+**git branch -d \[branchName\]** 将某分支删除
+**git merge --no-ff -m \[comment\] \[branchName\]** 不用fast forward合并，用普通合并，节点提交一次commit,能在git log 查看合并情况
