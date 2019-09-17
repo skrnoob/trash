@@ -1,4 +1,4 @@
 Hello, i am Trash.
 realy?
 actually i merged master and feature
-now add some feature
+im from issue101
