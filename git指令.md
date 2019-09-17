@@ -21,3 +21,10 @@
 **git merge \[branchName\]** 将某分支合并到当前分支。有冲突要先解决冲突，commit之后再merge。
 **git branch -d \[branchName\]** 将某分支删除
 **git merge --no-ff -m \[comment\] \[branchName\]** 不用fast forward合并，用普通合并，节点提交一次commit,能在git log 查看合并情况
+
+**git stash** 当不想commit而又要切换分支时，可用隐藏此时工作区和暂存区
+**git stash apply** 回复第一个stash
+**git stash pop** 恢复第一个stash并删除
+**git stash log** 查看stash列表
+**git stash clear** 清空所有stash列表
+**git stash drop** 删除某个stash记录
